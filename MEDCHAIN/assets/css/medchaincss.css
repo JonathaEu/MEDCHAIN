@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(24, 18, 46);
+}
+
+ul {
+    color: rgb(229, 229, 231);
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    height: 40px;
+    width: calc(100% - 50px);
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    font-family: sans-serif;
+    border-right: rgb(229, 229, 231) 4px solid;
+}
+
+li#log {
+    margin-right: 80px;
+}
+li#main-word {
+    font-size: 27px;
+    justify-content: justify;
+    line-height:0px;
+
+}
+
+img#home-image {
+    width: 80%; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    font-style: none;
+    text-decoration-color: none;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(229, 229, 231);
+    display: flex;
+}
+
+h3 {
+    text-decoration: none;
+    font-style: none;
+    text-decoration-color: none;
+    color: rgb(229, 229, 231);
+}
+
+input[type="file"] {
+    display: none;
+}
+
+input[type="submit"] {
+    display: flex;
+    margin-right: auto;
+    text-indent: -10px;
+    font-size: 14pt;
+    line-height: 10px;
+    left: 66%;
+    top: -42px;
+    position: relative;
+    padding: 10px 10px;
+    height: 42px;
+    width: 88px;
+    border-top:2px solid rgb(117, 168, 213);
+    border-bottom:2px solid rgb(117, 168, 213);
+    border-left:20px solid rgb(117, 168, 213);
+    border-right:2px solid rgb(117, 168, 213);
+    border-radius: 4px;
+    background-color:rgb(117, 168, 213);
+    color: rgb(229, 229, 231);
+}
+
+label {
+    padding: 10px 10px;
+    width: 400px;
+    background-color:rgb(229, 229, 231);
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin-top: 300px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    border-top:2px solid rgb(117, 168, 213);
+    border-bottom:2px solid rgb(117, 168, 213);
+    border-left:2px solid rgb(117, 168, 213);
+    border-right:14px solid rgb(117, 168, 213);
+    border-radius: 4px;
+}
